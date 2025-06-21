@@ -1,0 +1,83 @@
+body {
+  background: #E8CBC0;
+  background: linear-gradient(90deg, rgba(232, 203, 192, 1) 39%, rgba(99, 111, 164, 1) 100%);
+}
+
+.heading {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-wrapper {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.form-label {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.form-control {
+  color: black;
+  font-weight: 300;
+}
+
+.form-control:active {
+  color: black;
+  font-weight: 300;
+}
+
+.btn-primary {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+.btn-primary:hover {
+  background-color: #5a67d8;
+  border-color: #5a67d8;
+}
+
+.form-text {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+
+/* blog card */
+.blog-card {
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card-buttons .btn {
+  width: 48%;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-buttons .btn:hover {
+  transform: scale(1.05);
+}
